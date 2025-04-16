@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Total Protection Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1f4037);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: fadeInDown 1s ease;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin-bottom: 40px;
+      line-height: 1.6;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    .btn {
+      background: linear-gradient(to right, #00c9ff, #92fe9d);
+      padding: 15px 40px;
+      border: none;
+      border-radius: 30px;
+      color: #000;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      box-shadow: 0 0 15px rgba(0, 201, 255, 0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px rgba(0, 201, 255, 1);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <h1>🛡️ Virus Total</h1>
+  <p><strong>Virus Total</strong> é um antivírus real e funcional criado para proteger seu sistema de ameaças digitais.  
+  Projetado com tecnologia moderna, ele detecta e neutraliza arquivos suspeitos, oferecendo segurança e desempenho.  
+  Faça parte da revolução na proteção digital!</p>
+  
+  <a href="https://joafinecraft123.github.io/No-Virus/" class="btn">🔍 Acessar Projeto Anti Vírus</a>
+
+  <footer>
+    © 2025 Virus Total Antivirus | Desenvolvido Com 💙 Por JoafineCraft123
+  </footer>
+</body>
+</html>
